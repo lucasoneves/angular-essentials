@@ -1,0 +1,14 @@
+.user-card {
+    background-color: #450d80;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.user-card:hover {
+    background-color: #2d0854;
+}
+
+button {
+    color: white;
+    font-size: 16px;
+}

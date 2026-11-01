@@ -1,6 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 * {
   box-sizing: border-box;
+  border: 0;
+  background-color: transparent;
+  list-style: none;
 }
 
 html {
