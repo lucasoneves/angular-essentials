@@ -10,7 +10,16 @@
 
 button {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
-    padding: 12px;
+    padding: 12px 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-card--avatar {
+    max-width: 40px;
+    border-radius: 50px;
 }
