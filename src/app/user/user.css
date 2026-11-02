@@ -1,7 +1,7 @@
 .user-card {
     background-color: #450d80;
-    padding: 12px;
     border-radius: 12px;
+    display: inline-flex;
 }
 
 .user-card:hover {
@@ -11,4 +11,6 @@
 button {
     color: white;
     font-size: 16px;
+    cursor: pointer;
+    padding: 12px;
 }
