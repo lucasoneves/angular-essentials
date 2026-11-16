@@ -17,6 +17,7 @@ export class User {
   }
 
   onSelectUser() {
-    console.log("Clicked!", this.selectedUser.id);
+    const randomUser = Math.floor(Math.random() * DUMMY_USERS.length);
+    this.selectedUser = DUMMY_USERS[randomUser]
   }
 }
