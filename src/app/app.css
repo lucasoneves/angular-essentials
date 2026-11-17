@@ -1,0 +1,13 @@
+.list-users {
+    display: grid;
+    gap: 12px;
+    max-width: 780px;
+    margin: auto;
+    padding: 12px;
+}
+
+@media (min-width: 640px) {
+    .list-users {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}

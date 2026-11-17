@@ -1,0 +1,27 @@
+.user-card {
+    background-color: #450d80;
+    border-radius: 12px;
+    display: inline-flex;
+    margin: 6px 0;
+    width: 100%;
+}
+
+.user-card:hover {
+    background-color: #2d0854;
+}
+
+button {
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 12px 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-card--avatar {
+    max-width: 40px;
+    border-radius: 50px;
+}

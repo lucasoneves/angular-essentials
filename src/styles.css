@@ -4,6 +4,8 @@
   border: 0;
   background-color: transparent;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 html {
@@ -14,7 +16,5 @@ body {
   font-family: "Poppins", sans-serif;
   background: radial-gradient(circle at top left, #181023, #0b0519);
   color: #c3b3d8;
-  margin: 0;
-  padding: 0;
   height: 100%;
 }

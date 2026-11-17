@@ -2,9 +2,28 @@
 
 <app-header></app-header>
 <main>
-  <ul>
+  <ul class="list-users">
     <li>
-      <app-user />
+      <!-- <app-user /> -->
+      <app-user-card [name]="users[0].name" [avatar]="users[0].avatar" />
+    </li>
+    <li>
+      <app-user-card [name]="users[1].name" [avatar]="users[1].avatar" />
+    </li>
+    <li>
+      <app-user-card [name]="users[2].name" [avatar]="users[2].avatar" />
+    </li>
+    <li>
+      <app-user-card [name]="users[3].name" [avatar]="users[3].avatar" />
+    </li>
+    <li>
+      <app-user-card [name]="users[4].name" [avatar]="users[4].avatar" />
+    </li>
+    <li>
+      <app-user-card [name]="users[5].name" [avatar]="users[5].avatar" />
+    </li>
+    <li>
+      <app-user-card [name]="users[6].name" [avatar]="users[6].avatar" />
     </li>
   </ul>
 </main>
